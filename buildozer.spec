@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = AI
+title = Ai
 
 # (str) Package name
-package.name = DestiSolver AI
+package.name = DestiSolver Ai
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.12.3,hostpython3==3.12.3,kivy,kivymd,pillow
+requirements = Python 3.x, NumPy, and SymPy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.12.3
+osx.python_version = 3.x
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
